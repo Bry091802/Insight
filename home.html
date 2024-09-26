@@ -23,9 +23,25 @@
               <li><a href="#banner">Home</a></li>
               <li><a href="#services">Services</a></li>
               <li><a href="#projects">Projects</a></li>
-              <li><a href="">Contacts</a></li>
+              <li><a href="#contact">Contacts</a></li>
+              <ul class="socialIcons">
+                <li>
+                  <a href=""><i class="fa-solid fa-envelope"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  <a href=""><i class="fa-brands fa-facebook"></i></a>
+                </li>
+              </ul>
+              <div class="nav__logo">
+                <img src="./img/logo.png" alt="">
+              </div>
             </ul>
           </nav>
+
+          <div class="toggle__menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
       </div>
     </header>
@@ -122,7 +138,7 @@
                 Expedita sint quaerat aspernatur sapiente incidunt reiciendis
                 quasi dolore temporibus quae iure!
               </p>
-              <button><a href="" class="btn bg--light">See Projects</a></button>
+              <a href="" class="btn bg--light">See Projects</a>
             </div>
           </div>
           <div class="bgDark"></div>
@@ -137,7 +153,7 @@
                 Expedita sint quaerat aspernatur sapiente incidunt reiciendis
                 quasi dolore temporibus quae iure!
               </p>
-              <button><a href="" class="btn bg--light">See Projects</a></button>
+              <a href="" class="btn bg--light">See Projects</a>
             </div>
           </div>
           <div class="bgDark"></div>
@@ -152,7 +168,7 @@
                 Expedita sint quaerat aspernatur sapiente incidunt reiciendis
                 quasi dolore temporibus quae iure!
               </p>
-              <button><a href="" class="btn bg--light">See Projects</a></button>
+              <a href="" class="btn bg--light">See Projects</a>
             </div>
           </div>
           <div class="bgDark"></div>
@@ -161,7 +177,7 @@
     </section>
 
     <!-- CONTACT -->
-    <section class="contact">
+    <section id="contact" class="contact">
       <div class="container">
         <div class="contact__title">
           <h3>Contacts</h3>
@@ -196,21 +212,25 @@
     </section>
 
     <!-- FOOTER -->
-     <footer class="footer">
-        <div class="container">
-            <div class="footer__wrapper">
-                <div class="icon">
-                    <li><i class="fa-solid fa-envelope"></i></li>
-                    <li><i class="fa-brands fa-slack"></i></li>
-                    <li><i class="fa-brands fa-facebook"></i></li>
-                    <li><i class="fa-brands fa-twitter"></i></li>
-                </div>
-                <img src="./img/logo.png" alt="">
-                <p>All rights reserved</p>
-            </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__info">
+            <ul class="icon">
+              <li><i class="fa-solid fa-envelope"></i></li>
+              <li><i class="fa-brands fa-slack"></i></li>
+              <li><i class="fa-brands fa-facebook"></i></li>
+              <li><i class="fa-brands fa-twitter"></i></li>
+            </ul>
+            <img src="./img/logo.png" alt="" />
+          </div>
+
+          <p>All rights reserved</p>
         </div>
-     </footer>
+      </div>
+    </footer>
     <!-- SCRIPT -->
     <script src="./header.js"></script>
+    <script src=".toggle__menu"></script>
   </body>
 </html>
